@@ -7,14 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- BOOTSTRAP LINK -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <!-- CUSTOM STYLE  -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-
+    <div class="container card_contianer">
+        <div class="card card_position">
+            <div class="card-header">
+                <h2>How much do pies cost?</h2>
+            </div>
+            <form>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="price" class="form-label">Price</label>
+                        <input type="text" class="form-control" name="price" value="20">
+                    </div>
+                    <div class="form-group mt-2">
+                        <label for="quantity" class="form-label">Quantity <span
+                                class="badge bg-primary total_quantity">1</span></label>
+                        <input type="range" class="form-range" name="quantity" value="1" min="1" max="10" step="1">
+                    </div>
+                </div>
+            </form>
+            <div class="total_cost">$20</div>
+        </div>
+    </div>
 
 
     <!-- JS LINK -->

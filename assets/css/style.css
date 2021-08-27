@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.card_contianer {
+    width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.total_cost {
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 7px;
+    font-size: 35px;
+}
